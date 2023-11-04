@@ -1,5 +1,4 @@
 import { ErrorModal } from "@/components/modals/error-modal";
-import { useModal } from "@/hooks/use-modal-store";
 import { currentProfile } from "@/lib/current-profile";
 import { db } from "@/lib/db";
 import { redirectToSignIn } from "@clerk/nextjs";
