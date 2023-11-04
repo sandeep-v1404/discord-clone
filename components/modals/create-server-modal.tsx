@@ -72,13 +72,11 @@ export const CreateServerModal = () => {
       <DialogContent className="bg-white text-black p-0 overflow-hidden">
         <DialogHeader className="pt-8 px-6">
           <DialogTitle className="text-2xl text-center font-bold">
-            Customize your header
+            Create Server
           </DialogTitle>
           <DialogDescription className="text-center text-zinc-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora,
-            odit. Tenetur quod nisi, iure magni ipsum nam expedita nobis
-            nesciunt commodi quidem dignissimos tempora fugiat cumque quos
-            distinctio, odio id!
+            Make a new server with name and an image. You can always change it
+            later
           </DialogDescription>
         </DialogHeader>
         <Form {...form}>
